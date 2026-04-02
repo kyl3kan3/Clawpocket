@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "ClawPocket",
+    "slug": "clawpocket",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "clawpocket",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.clawpocket.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Used to capture images for chat attachments",
+        "NSPhotoLibraryUsageDescription": "Used to select images for chat attachments"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-notifications",
+      "expo-image-picker",
+      "expo-localization"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      }
+    }
+  }
+}
