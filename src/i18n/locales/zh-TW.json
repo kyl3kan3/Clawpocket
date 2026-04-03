@@ -1,0 +1,68 @@
+{
+  "common": {
+    "loading": "載入中...",
+    "error": "錯誤",
+    "retry": "重試",
+    "cancel": "取消",
+    "apply": "套用",
+    "save": "儲存",
+    "delete": "刪除",
+    "confirm": "確認",
+    "connected": "已連線",
+    "connecting": "連線中...",
+    "disconnected": "已中斷",
+    "authenticating": "驗證中...",
+    "awaiting_approval": "等待核准",
+    "online": "上線",
+    "offline": "離線",
+    "enabled": "已啟用",
+    "disabled": "已停用",
+    "no_data": "無資料",
+    "copy": "複製",
+    "clear": "清除",
+    "refresh": "重新整理",
+    "close": "關閉",
+    "back": "返回",
+    "done": "完成",
+    "edit": "編輯",
+    "create": "建立",
+    "update": "更新",
+    "run": "執行",
+    "stop": "停止"
+  },
+  "tabs": {
+    "overview": "總覽",
+    "chat": "聊天",
+    "sessions": "工作階段",
+    "agents": "代理",
+    "more": "更多"
+  },
+  "chat": {
+    "compose_placeholder": "輸入訊息...",
+    "abort": "停止",
+    "no_messages": "傳送訊息開始對話",
+    "response_aborted": "（回應已中止）",
+    "tokens": "{{count}} 個權杖"
+  },
+  "auth": {
+    "app_name": "ClawPocket",
+    "tagline": "連線到你的 OpenClaw 閘道器",
+    "connect": "連線",
+    "host_required": "請輸入閘道器主機名稱或 IP 位址",
+    "waiting_title": "等待核准"
+  },
+  "exec_approval": {
+    "title": "執行核准",
+    "allow_once": "允許一次",
+    "allow_always": "一律允許",
+    "deny": "拒絕"
+  },
+  "settings": {
+    "title": "設定",
+    "dark": "深色",
+    "light": "淺色",
+    "system": "跟隨系統",
+    "disconnect": "中斷連線",
+    "clear_all": "清除所有資料"
+  }
+}

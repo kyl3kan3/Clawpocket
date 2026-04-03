@@ -5,6 +5,7 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { useConnectionStore } from "../src/stores/connection";
 import { useGateway } from "../src/hooks/useGateway";
 import { ExecApprovalSheet } from "../src/components/ExecApprovalSheet";
+import "../src/i18n";
 import "../global.css";
 
 export default function RootLayout() {
@@ -72,6 +73,10 @@ export default function RootLayout() {
             <Stack.Screen
               name="settings"
               options={{ title: "Settings", presentation: "card" }}
+            />
+            <Stack.Screen
+              name="config"
+              options={{ title: "Config", presentation: "card" }}
             />
             <Stack.Screen
               name="exec-approval"

@@ -1,0 +1,68 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "retry": "Reintentar",
+    "cancel": "Cancelar",
+    "apply": "Aplicar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "confirm": "Confirmar",
+    "connected": "Conectado",
+    "connecting": "Conectando...",
+    "disconnected": "Desconectado",
+    "authenticating": "Autenticando...",
+    "awaiting_approval": "Esperando aprobación",
+    "online": "En línea",
+    "offline": "Sin conexión",
+    "enabled": "Activado",
+    "disabled": "Desactivado",
+    "no_data": "Sin datos",
+    "copy": "Copiar",
+    "clear": "Limpiar",
+    "refresh": "Actualizar",
+    "close": "Cerrar",
+    "back": "Volver",
+    "done": "Hecho",
+    "edit": "Editar",
+    "create": "Crear",
+    "update": "Actualizar",
+    "run": "Ejecutar",
+    "stop": "Detener"
+  },
+  "tabs": {
+    "overview": "Resumen",
+    "chat": "Chat",
+    "sessions": "Sesiones",
+    "agents": "Agentes",
+    "more": "Más"
+  },
+  "chat": {
+    "compose_placeholder": "Mensaje...",
+    "abort": "Detener",
+    "no_messages": "Envía un mensaje para comenzar",
+    "response_aborted": "(respuesta interrumpida)",
+    "tokens": "{{count}} tokens"
+  },
+  "auth": {
+    "app_name": "ClawPocket",
+    "tagline": "Conéctate a tu Gateway OpenClaw",
+    "connect": "Conectar",
+    "host_required": "Ingresa el nombre de host o IP del gateway",
+    "waiting_title": "Esperando Aprobación"
+  },
+  "exec_approval": {
+    "title": "Aprobación de Ejecución",
+    "allow_once": "Permitir Una Vez",
+    "allow_always": "Permitir Siempre",
+    "deny": "Denegar"
+  },
+  "settings": {
+    "title": "Configuración",
+    "dark": "Oscuro",
+    "light": "Claro",
+    "system": "Sistema",
+    "disconnect": "Desconectar",
+    "clear_all": "Borrar Todos los Datos"
+  }
+}
