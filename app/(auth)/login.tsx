@@ -126,11 +126,12 @@ export default function LoginScreen() {
         {/* Help text */}
         <View className="mt-8 items-center">
           <Text className="text-xs text-slate-500 text-center leading-5">
-            Ensure your Tailscale VPN is active, or enter your{"\n"}
-            Gateway's direct IP address and auth token.
+            Enter your gateway's secure wss:// address and auth token.{"\n"}
+            The gateway must have a trusted TLS certificate, including on Tailscale.
           </Text>
         </View>
       </View>
     </KeyboardAvoidingView>
   );
 }
+

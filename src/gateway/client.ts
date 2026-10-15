@@ -1,3 +1,4 @@
+import { gatewayUrl } from "./url";
 import { GatewayTransport } from "./transport";
 import { performAuth, type AuthResult } from "./auth";
 import type { GatewayEventMap, EventHandler } from "./events";
@@ -51,6 +52,7 @@ class GatewayClient {
 
   // ─── Connection ─────────────────────────────────────────────
   async connect(url: string): Promise<AuthResult> {
+    url = gatewayUrl(url);
     this._url = url;
     this.transport.onMessage(this.dispatchFrame);
     this.transport.connect(url);
@@ -388,3 +390,4 @@ class GatewayClient {
 // Singleton instance
 export const gateway = new GatewayClient();
 export type { GatewayClient };
+

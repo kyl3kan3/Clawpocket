@@ -3,6 +3,7 @@ import { gateway } from "../gateway/client";
 import type { AuthResult, AuthState } from "../gateway/auth";
 import type { HealthStatus } from "../gateway/types";
 import { getGatewayUrl } from "../lib/secure-store";
+import { gatewayUrl } from "../gateway/url";
 
 interface ConnectionState {
   url: string | null;
@@ -31,7 +32,7 @@ export const useConnectionStore = create<ConnectionState>((set, get) => ({
     set({ url, authState: "connecting", authError: null });
 
     try {
-      const wsUrl = `ws://${url}:18789`;
+      const wsUrl = gatewayUrl(url);
       const result = await gateway.connect(wsUrl);
 
       set({
@@ -72,3 +73,4 @@ export const useConnectionStore = create<ConnectionState>((set, get) => ({
   setAuthState: (authState, authError) =>
     set({ authState, authError: authError ?? null, reconnecting: false }),
 }));
+
